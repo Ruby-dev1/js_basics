@@ -24,7 +24,7 @@
 
 //! git working flow 
 //*changes seen in :
-//? working directory     -> staging area               -> local repo 
+//? working directory     -> staging area               -> local repo    -> remote repo
 //? changes                  ready state              new version/commit
 
 
@@ -42,7 +42,20 @@
 //*git status -> gives the current state of the files whether it is added or not
 
 //*git add <file_path> -- it takes changes from working directory to staging area ( ready state)
+
+//*git add .
+
 //* git commit -m "<commit_message>" --- takes the staged area file to local repo 
+//* git push origin  <branch_name>
+
+//every changes is new commit
+
+
+//? remote repo
+
+//* git remote -v -> list remote repo
+//* git remote add origin <remote_repoA_url>
+//* git remote remove origin
 
 
 
