@@ -66,11 +66,27 @@
 //* git switch -c <branch_name>
 //* git merge <branch_name> ---- for eg , merging the (new_branch)login branch to main branch 
 
-//* git stash 
+//* git stash  -- locally stored temporarily in cache memory - like completed the task but want to keep
+//hiii
+//jiiii
+//* git stash list --- how many changes are in stash , it gives lists
+//* git stash pop --- it brings out the changes that got hide when using git stash
+//* git log --- history check (to stop click Q)
+//* git log --oneline
 
 //! merge conflict
 //?A merge conflict happens in Git when two changes can't be combined automatically
 
+
+//!rebase 
+//git rebase<>
+//main: A -> B -> c -> D -> G -> H
+// feature ;           D -> E-> F // merge
+//feature :            G' -> H' -> E -> F // rebase
+
+//! cherry-pick <commit_hash> --- it will help in choosing one commit from multiple new commit branch in merge cases using hash (git log --oneline)
+//main: A -> B -> c -> D 
+// fix ;               D -> E-> F -> G // merge
 
 
 
