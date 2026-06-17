@@ -58,5 +58,12 @@
 //* git remote remove origin
 
 
+//! branch
+//* git branch
+//* git branch <branch_name>
+//* git switch <branch_name> --- to jump from one branch to another
+
+
+
 
 
