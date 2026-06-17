@@ -62,7 +62,12 @@
 //* git branch
 //* git branch <branch_name>
 //* git switch <branch_name> --- to jump from one branch to another
-//* git merge <branch_name> ---- for eg , merging the login branch to main branch 
+//* git merge <branch_name> ---- for eg , merging the (new_branch)login branch to main branch 
+
+//! merge conflict
+//?A merge conflict happens in Git when two changes can't be combined automatically
+
+
 
 
 
