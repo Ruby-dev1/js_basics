@@ -88,6 +88,14 @@
 //main: A -> B -> c -> D 
 // fix ;               D -> E-> F -> G // merge
 
+//* PR -> pull request  -- github       if   git ( MR)
+
+
+//? main -> production 
+//? develop -> integration branch ---- merge is always done in develop not with main
+//? hotfix -> emergency bug fix // hotfix/login
+//? feature -> feature/login
+
 
 
 
